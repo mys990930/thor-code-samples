@@ -112,8 +112,8 @@ thor-code-samples/
 
 ## 실행 환경과 제외한 구성
 
-개발 환경은 **Unity 6000.3.9f1 / C#**입니다. 스킬 프리팹과 수치 에셋, 씬·이미지·음원·폰트, 입력·전역 관리자와 초기화 진입점, 인증 구성과 서버 구현은 제외했습니다. ScriptableObject의 클래스 정의는 있지만 실제 수치 에셋은 들어 있지 않습니다.
+개발 환경은 Unity 6000.3.9f1 / C#입니다. 스킬 프리팹과 수치 에셋, 씬·이미지·음원·폰트, 입력·전역 관리자와 초기화 진입점, 인증 구성과 서버 구현은 제외했습니다. ScriptableObject의 클래스 정의는 있지만 실제 수치 에셋은 들어 있지 않습니다.
 
 코드에 등장하는 보스·장애물·화면·에셋 로더 등 일부 타입도 호출 문맥만 남아 있습니다. Newtonsoft JSON, TextMeshPro, HeroEditor, FantasyMonsters 등 외부 패키지·에셋의 역할과 제외한 프로젝트 타입은 [의존성 문서](Docs/Dependencies.md)에 정리했습니다.
 
-`Docs`에는 [스킬](Docs/CombatSkills.md), [풀링](Docs/BattlePooling.md), [서버 데이터](Docs/ServerSkillData.md)의 구현 설명과 의존성 문서가 있습니다. 각 사례의 배경과 적용 범위, 현재 한계는 해당 문서에서 더 자세히 다룹니다. 발췌한 코드에는 공개를 위해 정리하면서 보완한 내용도 포함되어 있습니다.
+`Docs`에는 [스킬](Docs/CombatSkills.md), [풀링](Docs/BattlePooling.md), [서버 데이터](Docs/ServerSkillData.md)의 구현 설명과 의존성 문서가 있습니다. 각 사례의 배경과 적용 범위, 현재 한계는 해당 문서에서 더 자세히 다룹니다.
