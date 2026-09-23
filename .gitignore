@@ -1,0 +1,39 @@
+# Unity 및 빌드 산출물
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+AssetBundles/
+# IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+# 인증·로컬 환경
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+*service-account*.json
+*client_secret*.json
+# 운영 데이터·원본 이력
+*.log
+.plastic/
+.DS_Store
+Thumbs.db
